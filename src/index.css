@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.navbar {
+  background-color: #8ab6e4;
+  display: flex;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.navbar button {
+  
+  color: #0d0a0a;
+  font-size: 16px;
+  margin: 0 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar button:hover {
+  color: #ffdd40;
+  border-bottom: 2px solid #ffdd40;
+}
+
+.navbar button.active {
+  color: #ffdd40;
+  border-bottom: 2px solid #ffdd40;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2, h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  background-color: #adb0b2;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #a71d2a;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.permissions label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.permissions input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.add-role {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.add-role input[type="text"] {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+
+.add-role button {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  table,
+  table th,
+  table td {
+    font-size: 14px;
+  }
+
+  .navbar button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .add-role input[type="text"] {
+    width: 100%;
+  }
+}
