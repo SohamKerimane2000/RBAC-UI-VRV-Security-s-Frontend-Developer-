@@ -26,10 +26,4 @@ This project implements a Role-Based Access Control (RBAC) system with the follo
 ## Technologies Used
 - React.js
 - CSS for styling
-- Mock data (JSON) for API simulation
-
-## Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+- Mock data (JSON) for API simulation.....
